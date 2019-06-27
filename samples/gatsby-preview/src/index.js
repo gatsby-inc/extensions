@@ -72,6 +72,7 @@ class App extends React.Component {
       <div className="extension">
         <div className="flexcontainer">
           <ExtensionUI contentSlug={contentSlug && contentSlug.getValue()} previewInstanceUrl={previewUrl} authToken={authToken} />
+          <p>SUH DUDE</p>
         </div>
       </div>
     );
